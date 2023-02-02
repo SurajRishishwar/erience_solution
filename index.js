@@ -105,11 +105,11 @@ app.get(`/allcity`,(req,res)=>{
 
 //api call for api  STEP 3
 
-// https.get('https://api.binance.com/api/v1/time',(res)=>{
+https.get('https://api.binance.com/api/v1/time',(res)=>{
 
-//     console.log(res.servertime);
+    console.log(res.servertime);
   
-// });
+ });
 
 
 // inserting user STEP  4
