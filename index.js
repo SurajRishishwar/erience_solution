@@ -107,7 +107,7 @@ app.get(`/allcity`,(req,res)=>{
 
 https.get('https://api.binance.com/api/v1/time',(res)=>{
 
-    console.log(res.servertime);
+    console.log(res);
   
  });
 
